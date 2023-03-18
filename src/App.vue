@@ -358,12 +358,17 @@
 
 
     <div class="flex justify-center mt-20 mb-32">
-    <form class="w-full items-start justify-center max-w-sm md:max-w-lg xl:w-max-2xl xl:max-w-3xl">
-      <div class="flex justify-center border-b border-Blanc py-2">
-        <input class="appearance-none bg-transparent border-none w-full text-Blanc mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Nom" aria-label="Nom">
-      </div>
-    </form>
-  </div>
+      <form class="w-full items-start justify-center max-w-sm md:max-w-lg xl:w-max-2xl xl:max-w-3xl">
+        <div class="flex justify-center border-b border-Blanc py-2">
+          <input class="appearance-none bg-transparent border-none w-full text-Blanc mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Nom" aria-label="Nom">
+        </div>
+        <div class="flex justify-center border-b pt-16 border-Blanc py-2">
+          <input class="appearance-none bg-transparent border-none w-full text-Blanc mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Adresse mail" aria-label="Adresse mail">
+        </div>
+      </form>
+    </div>
+
+    
 
   <Footer/>
 </div>
