@@ -182,7 +182,7 @@
     
 
     <div class="py-36 px-20">
-      <h2 class="rounded-lg border-Blanc text-Noir bg-Blanc justify-center border-8 font-bold text-xl py-1 relative flex flex-grow flex-col items-center self-stretch">Design Graphique</h2>
+      <h2 class="rounded-lg border-Blanc text-Noir text-center bg-Blanc justify-center border-8 font-bold text-xl py-1 relative flex flex-grow flex-col items-center self-stretch">Design Graphique</h2>
     </div>
 
     <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(350px,2fr))] pb-10">
@@ -366,6 +366,10 @@
           <input class="appearance-none bg-transparent border-none w-full text-Blanc mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Message" aria-label="Message" v-model="message">
         </div>
       </form>
+    </div>
+
+    <div class="my-20 mr-48 text-right">
+      <button class="w-2/3 md:w-2/3 lg:w-80 xl:w-80 rounded-lg border-Blanc border-4 h-16 font-bold text-xl hover:bg-Blanc hover:text-black" @click.prevent="sendMail">Envoyer</button>
     </div>
 
   <Footer/>
