@@ -8,7 +8,6 @@
     data() {
     return {
       from_name: "",
-      from_firstname: "",
       email_id: "",
       message: "",
     };
@@ -18,7 +17,6 @@
     sendMail() {
       const params = {
         from_name: this.from_name,
-        from_firstname: this.from_firstname,
         email_id: this.email_id,
         message: this.message,
       };
@@ -356,19 +354,19 @@
 
     <h2 class="mt-60 ml-10 md:ml-20 lg:ml-20 xl:ml-20 font-bold text-2xl md:text-3xl lg:text-3xl xl:text-3xl">Me contacter</h2>
 
-
     <div class="flex justify-center mt-20 mb-32">
       <form class="w-full items-start justify-center max-w-sm md:max-w-lg xl:w-max-2xl xl:max-w-3xl">
         <div class="flex justify-center border-b border-Blanc py-2">
-          <input class="appearance-none bg-transparent border-none w-full text-Blanc mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Nom" aria-label="Nom">
+          <input class="appearance-none bg-transparent border-none w-full text-Blanc mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Nom" aria-label="Nom" v-model="from_name">
         </div>
         <div class="flex justify-center border-b pt-16 border-Blanc py-2">
-          <input class="appearance-none bg-transparent border-none w-full text-Blanc mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Adresse mail" aria-label="Adresse mail">
+          <input class="appearance-none bg-transparent border-none w-full text-Blanc mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Adresse mail" aria-label="Adresse mail" v-model="email_id">
+        </div>
+        <div class="flex justify-center border-b pt-16 border-Blanc py-2">
+          <input class="appearance-none bg-transparent border-none w-full text-Blanc mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Message" aria-label="Message" v-model="message">
         </div>
       </form>
     </div>
-
-    
 
   <Footer/>
 </div>
