@@ -65,7 +65,7 @@
       <h3 class="text-left ml-5 font-bold sm:text-sm md:text-base lg:text-xl xl:text-xl">2023</h3>
       <div class="grid grid-cols-2">
         <h3 class="text-right ml-5 font-bold sm:text-sm md:text-base lg:text-lg xl:text-xl">Contact :</h3>
-        <a href="mailto:maxime.mercier@edu.univ-fcomte.fr" class="text-left ml-2 hover:underline sm:text-sm md:text-base lg:text-lg xl:text-xl">maxime.mercier@edu.univ-fcomte.fr</a>
+        <a href="mailto:maximemercier163@gmail.com" class="text-left ml-2 hover:underline sm:text-sm md:text-base lg:text-lg xl:text-xl">maximemercier163@gmail.com</a>
       </div>
     </div>
 
