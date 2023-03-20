@@ -75,7 +75,7 @@
       <div class="grid grid-rows-2 justify-center mt-36">
         <img class="row-span-3 flex w-2/3 md:w-2/3 lg:w-max xl:w-max" src='./assets/Moi.svg' alt="">
           <div class="mt-20 pl-5">
-            <button class="w-2/3 md:w-2/3 lg:w-80 xl:w-80  rounded-lg border-Blanc border-4 h-16 font-bold text-xl hover:bg-Blanc hover:text-black"><a href="../public/CV.pdf" target="_blank">Voir mon CV</a></button>
+            <button class="w-2/3 md:w-2/3 lg:w-80 xl:w-80  rounded-lg border-Blanc border-4 h-16 font-bold text-xl hover:bg-Blanc hover:text-black"><a href="https://drive.google.com/file/d/1yFbYZ1689PGfkbpbYTRUgbY9EpP2rwd5/view?usp=sharing" target="_blank">Voir mon CV</a></button>
           </div>
       </div>
       <div class="grid grid-rows-5 grid-flow-row mr-5">
